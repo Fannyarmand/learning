@@ -1,7 +1,7 @@
-const howAreYouString = 'how are you?'
-const friends = ['Romain', 'Fanny','PP','Pierre', 'JC']
+const howAreYouString = 'how are you?';
+const friends = ['Romain', 'Fanny','PP','Pierre', 'JC'];
 
-friends.forEach(hello)
+friends.forEach(hello);
 console.log(howAreYouString);
 
 ///////// My functions ////////
