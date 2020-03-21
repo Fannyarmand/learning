@@ -2,16 +2,8 @@ const assert = require('assert');
 
 // Exercise ///////////
 // 1-boolean-or
-
-function or(arg1, arg2){
+function or(arg1,arg2){
   return arg1 || arg2;
-
-  // old solution
-  if (arg1 === false && arg2 === false) {
-    return false;
-  } else {
-    return true;
-  }
 }
 
 //////// Tests ///////////////////////

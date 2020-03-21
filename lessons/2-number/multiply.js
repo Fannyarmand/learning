@@ -2,10 +2,9 @@ const assert = require('assert');
 
 // Exercise ///////////
 // 2-number-multiply
-function multiply(arg1, arg2){
+function multiply(arg1,arg2){
   return arg1 * arg2;
 }
-
 //////// Tests ///////////////////////
 assert(typeof multiply === "function", '"multiply" must be a function');
 assert(multiply(0, 0) === 0, '"multiply(0, 0)" must return 0');

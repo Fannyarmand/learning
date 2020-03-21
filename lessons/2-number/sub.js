@@ -2,10 +2,9 @@ const assert = require('assert');
 
 // Exercise ///////////
 // 2-number-sub
-function sub(arg1, arg2){
+function sub(arg1,arg2){
   return arg1 - arg2;
 }
-
 //////// Tests ///////////////////////
 assert(typeof sub === "function", '"sub" must be a function');
 assert(sub(0, 0) === 0, '"sub(0, 0)" must return 0');

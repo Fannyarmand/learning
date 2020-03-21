@@ -2,7 +2,6 @@ const assert = require('assert');
 
 // Exercise ///////////
 // 1-boolean-not
-
 function not(arg){
   return !arg;
 }
