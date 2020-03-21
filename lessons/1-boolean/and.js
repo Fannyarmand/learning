@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-// Excercice ///////////
+// Exercise ///////////
 // 1-boolean-and
 
 function and(arg1, arg2){

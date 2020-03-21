@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-// Excercice ///////////
+// Exercise ///////////
 // 1-boolean-nand
 function nand(arg1,arg2){
   return !(arg1 && arg2);

@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-// Excercice ///////////
+// Exercise ///////////
 // 1-boolean-or
 
 function or(arg1, arg2){

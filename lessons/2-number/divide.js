@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-// Excercice ///////////
+// Exercise ///////////
 // 2-number-divide
 function divide(arg1, arg2){
   if (arg2 === 0){

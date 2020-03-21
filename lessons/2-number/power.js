@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-// Excercice ///////////
+// Exercise ///////////
 // 2-number-power
 function power(arg1, arg2){
   return Math.pow(arg1, arg2);

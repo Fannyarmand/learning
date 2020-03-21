@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-// Excercice ///////////
+// Exercise ///////////
 // 2-number-multiply
 function multiply(arg1, arg2){
   return arg1 * arg2;

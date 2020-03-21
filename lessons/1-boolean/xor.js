@@ -1,6 +1,6 @@
 const assert = require('assert');
 
-// Excercice ///////////
+// Exercise ///////////
 // 1-boolean-xor
 function xor(arg1, arg2){
   if (arg1 === true && arg2 === true){
