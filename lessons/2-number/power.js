@@ -2,10 +2,9 @@ const assert = require('assert');
 
 // Excercice ///////////
 // 2-number-power
-function power(arg1, arg2){
-  return Math.pow(arg1, arg2);
+function power(number,power){
+  return Math.pow(number,power);
 }
-
 //////// Tests ///////////////////////
 assert(typeof power === "function", '"power" must be a function');
 assert(power(0, 0) === 1, '"power(0, 0)" must return 1');

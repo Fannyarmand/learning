@@ -2,10 +2,9 @@ const assert = require('assert');
 
 // Excercice ///////////
 // 2-number-add
-function add(arg1, arg2){
-  return arg1 + arg2;  
+function add(arg1,arg2){
+  return arg1 + arg2;
 }
-
 //////// Tests ///////////////////////
 assert(typeof add === "function", '"add" must be a function');
 assert(add(0, 0) === 0, '"add(0, 0)" must return 0');
