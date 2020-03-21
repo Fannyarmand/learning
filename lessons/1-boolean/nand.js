@@ -4,6 +4,8 @@ const assert = require('assert');
 // 1-boolean-nand
 function nand(arg1,arg2){
   return !(arg1 && arg2);
+
+  // old code
   if (arg1 === true && arg2=== true){
     return false;
   }
