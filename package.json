@@ -1,0 +1,13 @@
+{
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^7.1.1",
+    "mocha-decaf": "^1.1.0",
+    "should": "^13.2.3"
+  },
+  "scripts": {
+    "test": "yarn mocha",
+    "test:single": "yarn mocha -g",
+    "test:list": "yarn mocha-decaf"
+  }
+}

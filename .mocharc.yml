@@ -1,0 +1,5 @@
+watch-files:
+  - 'test/**/*.spec.js'
+  - 'lessoons/**/*.js'
+
+spec: test/**/*.spec.js
