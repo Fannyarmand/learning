@@ -10,7 +10,7 @@ To install yarn, it's really easy :
 
 ```shell script
 # install yarn, it's a tool like npm
-$ npm install -G yarn
+$ npm install -g yarn
 
 # check yarn is working
 $ yarn --version
