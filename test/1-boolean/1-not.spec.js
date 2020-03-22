@@ -8,7 +8,7 @@ describe('Not', () => {
     should(not).be.of.type("function", '"not" must be a function');
   });
 
-  it('should return true', () => {
+  it('should return false', () => {
     not(true).should.be.false('"not(true)" must return false');
   });
 

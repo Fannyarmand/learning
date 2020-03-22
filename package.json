@@ -3,7 +3,8 @@
   "dependencies": {
     "mocha": "^7.1.1",
     "mocha-decaf": "^1.1.0",
-    "should": "^13.2.3"
+    "should": "^13.2.3",
+    "yarn": "^1.22.4"
   },
   "scripts": {
     "test": "yarn mocha",

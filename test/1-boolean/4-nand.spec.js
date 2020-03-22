@@ -8,7 +8,7 @@ describe('Nand', () => {
     should(nand).be.of.type("function", '"nand" must be a function');
   });
 
-  it('should return true', () => {
+  it('should return false', () => {
     nand(true, true).should.be.false('"nand(true, true)" must return false');
   });
 
