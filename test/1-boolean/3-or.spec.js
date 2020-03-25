@@ -8,8 +8,8 @@ describe('Or', () => {
     should(or).be.of.type("function", '"or" must be a function');
   });
 
-  it('should return false', () => {
-    or(false, false).should.be.false('"or(false, false)" must return false');
+  it('should return false if args are both false', () => {
+    or(false, false).should.be.false();
   });
 
   it('should return true', () => {
