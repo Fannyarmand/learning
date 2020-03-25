@@ -15,6 +15,6 @@ describe('IsLeap', () => {
     isLeap(2024).should.be.true('"isLeap(2024)" must return true');
     isLeap(1824).should.be.true('"isLeap(1824)" must return true');
     isLeap(1582).should.be.false('"isLeap(1582)" must return false');
-    isLeap(1764).should.be.false('"isLeap(1764)" must return false');
+    isLeap(1764).should.be.true('"isLeap(1764)" must return true');
   });
 });

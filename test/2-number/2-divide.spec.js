@@ -12,6 +12,6 @@ describe('Divide', () => {
     divide(0, 100).should.be.equal(0, '"divide(0, 100)" must return 0');
     divide(100, 2).should.be.equal(50, '"divide(100, 2)" must return 50');
     divide(100, -2).should.be.equal(-50, '"divide(100, -2)" must return -50');
-    divide(42, 0).should.be.equal(null, '"divide(42, 0)" must return null');
+    should(divide(42, 0)).be.equal(null, '"divide(42, 0)" must return null');
   });
 });
