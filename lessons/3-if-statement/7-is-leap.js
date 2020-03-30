@@ -5,8 +5,18 @@
 // except if it can be exactly divided by 400, then it is (such as 2000, 2400)
 //
 // Change arguments if necessary
-function isLeap() {
-  // Write your code here
+function isLeap(year) {
+  if (year % 400 === 0) {
+    return true;
+  }
+
+  if (year % 100 === 0){
+    return false;
+  }
+
+  return year % 4 === 0;
+
+
 }
 
 module.exports = isLeap;

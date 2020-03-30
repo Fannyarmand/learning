@@ -1,6 +1,6 @@
 // Change arguments if necessary
-function or() {
-  // Write your code here
+function or(arg1,arg2) {
+  return arg1 || arg2;
 }
 
 module.exports = or;

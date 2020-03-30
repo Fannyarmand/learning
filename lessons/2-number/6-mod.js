@@ -1,6 +1,6 @@
 // Change arguments if necessary
-function mod() {
-  // Write your code here
+function mod(a,b) {
+  return a % b;
 }
 
 module.exports = mod;

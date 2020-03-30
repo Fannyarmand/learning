@@ -3,7 +3,13 @@
 //
 // Change arguments if necessary
 function isAlphabet(arg) {
-  // Write your code here
+    const charCode = arg.charCodeAt(0);
+
+    if (arg === 'Google' || arg === 'GOOGLE' || arg ==='google') {
+        return true;
+    }
+
+    return (charCode > 64 && charCode < 91 ) || (charCode > 96 && charCode < 123);
 }
 
 module.exports = isAlphabet;

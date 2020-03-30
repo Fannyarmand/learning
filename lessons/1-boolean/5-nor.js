@@ -1,6 +1,6 @@
 // Change arguments if necessary
-function nor() {
-  // Write your code here
+function nor(arg1,arg2) {
+  return !(arg1 || arg2);
 }
 
 module.exports = nor;

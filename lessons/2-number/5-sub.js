@@ -1,6 +1,6 @@
 // Change arguments if necessary
-function sub() {
-  // Write your code here
+function sub(a,b) {
+  return a - b;
 }
 
 module.exports = sub;

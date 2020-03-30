@@ -1,7 +1,7 @@
 const should = require('should');
 const { describe, it } = require('mocha');
 
-const isArrayOfString = require('../../lessons/4-while-statement/3-is-array-of-string');
+const isArrayOfString = require('../../lessons/4-while-statement/5-is-array-of-string');
 
 describe('IsArrayOfString', () => {
   it('should be a function', () => {

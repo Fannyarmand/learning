@@ -1,6 +1,6 @@
 // Change arguments if necessary
-function not() {
-  // Write your code here
+function not(arg) {
+  return !arg
 }
 
 module.exports = not;

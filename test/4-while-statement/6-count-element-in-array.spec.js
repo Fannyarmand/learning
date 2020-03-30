@@ -1,7 +1,7 @@
 const should = require('should');
 const { describe, it } = require('mocha');
 
-const countElement = require('../../lessons/4-while-statement/4-count-element-in-array');
+const countElement = require('../../lessons/4-while-statement/6-count-element-in-array');
 
 describe('CountElement', () => {
   it('should be a function', () => {

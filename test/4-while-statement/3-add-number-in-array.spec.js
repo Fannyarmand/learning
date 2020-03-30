@@ -1,7 +1,7 @@
 const should = require('should');
 const { describe, it } = require('mocha');
 
-const addNumberInArray = require('../../lessons/4-while-statement/1-add-number-in-array');
+const addNumberInArray = require('../../lessons/4-while-statement/3-add-number-in-array');
 
 describe('AddNumberInArray', () => {
   it('should be a function', () => {

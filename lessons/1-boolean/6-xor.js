@@ -1,6 +1,10 @@
 // Change arguments if necessary
 function xor(a, b) {
-  // Write your code here
+  if (a === true && b ===true){
+    return false;
+  } else {
+    return a || b;
+  }
 }
 
 module.exports = xor;
