@@ -1,7 +1,7 @@
 const should = require('should');
 const { describe, it } = require('mocha');
 
-const isPalindrome = require('../../lessons/4-while-statement/7-is-palindrome');
+const isPalindrome = require('../../lessons/4-while-statement/9-is-palindrome');
 
 describe('IsPalindrome', () => {
   it('should be a function', () => {
