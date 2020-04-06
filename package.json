@@ -10,5 +10,8 @@
     "test": "yarn mocha",
     "test:single": "yarn mocha -g",
     "test:list": "yarn mocha-decaf"
+  },
+  "devDependencies": {
+    "sinon": "^9.0.1"
   }
 }
